@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Class.cpp" />
+    <ClCompile Include="Cuenta.cpp" />
     <ClCompile Include="Trabajo Practico POO.cpp" />
   </ItemGroup>
   <ItemGroup>
