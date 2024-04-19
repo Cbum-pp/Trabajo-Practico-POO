@@ -1,4 +1,4 @@
-#include "Class.h"
+#include "Cuenta.h"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -8,14 +8,14 @@ int main() {
     double saldoinicial;
 
     cout << "Introduce el nombre del titular: ";
-    cin >> saldoinicial;
+    cin >> nombreTitular;
 
     std::cout << "Introduce el saldo inicial: $";
     std::cin >> saldoinicial;
 
     Cuenta miCuenta(nombreTitular, saldoinicial);
-    cout << "Titular: " << miCuenta.getTitular();
-    cout << "Saldo inicial: $" << miCuenta.getCantidad();
+    cout << "Titular: " << miCuenta.getTitular() << endl;
+    cout << "Saldo inicial: $" << miCuenta.getCantidad() << endl;
 
     // Realiza operaciones de ingreso y retiro según sea necesario
     double cantidadIngresada, cantidadRetirada;
