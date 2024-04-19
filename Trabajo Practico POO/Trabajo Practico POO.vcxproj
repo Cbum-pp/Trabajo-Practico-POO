@@ -131,7 +131,8 @@
     <ClCompile Include="Trabajo Practico POO.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Class.h" />
+    <ClInclude Include="Cuenta.h" />
+    <ClInclude Include="ICuenta.h" />
     <ClInclude Include="Trabajo Practico POO.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
